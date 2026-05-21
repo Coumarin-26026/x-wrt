@@ -1,3 +1,0 @@
-/lib/apk/packages/kmod-crypto-sha512.list
-/lib/modules/6.6.71/sha512-arm.ko
-/etc/modules.d/09-crypto-sha512

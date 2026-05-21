@@ -1,8 +1,0 @@
-/lib/apk/packages/kmod-crypto-user.list
-/lib/modules/6.6.71/algif_rng.ko
-/lib/modules/6.6.71/algif_aead.ko
-/lib/modules/6.6.71/crypto_user.ko
-/lib/modules/6.6.71/algif_skcipher.ko
-/lib/modules/6.6.71/af_alg.ko
-/lib/modules/6.6.71/algif_hash.ko
-/etc/modules.d/09-crypto-user

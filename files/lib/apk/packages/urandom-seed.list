@@ -1,4 +1,0 @@
-/lib/apk/packages/urandom-seed.list
-/lib/preinit/81_urandom_seed
-/etc/init.d/urandom_seed
-/sbin/urandom_seed

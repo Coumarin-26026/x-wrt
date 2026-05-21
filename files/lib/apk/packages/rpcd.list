@@ -1,6 +1,0 @@
-/lib/apk/packages/rpcd.list
-/usr/share/rpcd/acl.d/unauthenticated.json
-/etc/config/rpcd
-/etc/uci-defaults/50-migrate-rpcd-ubus-sock.sh
-/etc/init.d/rpcd
-/sbin/rpcd

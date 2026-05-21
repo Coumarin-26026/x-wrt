@@ -1,3 +1,0 @@
-/lib/apk/packages/luci-app-cpu-status.list
-/usr/share/rpcd/acl.d/luci-app-cpu-status.json
-/www/luci-static/resources/view/status/include/18_cpu.js

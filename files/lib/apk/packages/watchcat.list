@@ -1,5 +1,0 @@
-/lib/apk/packages/watchcat.list
-/usr/bin/watchcat.sh
-/etc/config/watchcat
-/etc/uci-defaults/migrate-watchcat
-/etc/init.d/watchcat

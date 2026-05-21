@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-ata-ahci.list
-/lib/modules/6.6.71/ahci.ko
-/etc/modules.d/41-ata-ahci
-/etc/modules-boot.d/41-ata-ahci

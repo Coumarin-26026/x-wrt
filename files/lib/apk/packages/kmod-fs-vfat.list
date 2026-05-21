@@ -1,5 +1,0 @@
-/lib/apk/packages/kmod-fs-vfat.list
-/lib/modules/6.6.71/vfat.ko
-/lib/modules/6.6.71/fat.ko
-/etc/modules.d/30-fs-vfat
-/etc/modules-boot.d/30-fs-vfat

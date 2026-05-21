@@ -1,3 +1,0 @@
-/lib/apk/packages/kmod-crypto-seqiv.list
-/lib/modules/6.6.71/seqiv.ko
-/etc/modules.d/09-crypto-seqiv

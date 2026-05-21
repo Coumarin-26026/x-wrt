@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-usb-cdns3.list
-/lib/modules/6.6.71/cdns3.ko
-/etc/modules.d/54-usb-cdns3
-/etc/modules-boot.d/54-usb-cdns3

@@ -1,3 +1,0 @@
-/lib/apk/packages/kmod-usb-serial.list
-/lib/modules/6.6.71/usbserial.ko
-/etc/modules.d/usb-serial

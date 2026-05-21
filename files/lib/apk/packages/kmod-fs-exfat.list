@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-fs-exfat.list
-/lib/modules/6.6.71/exfat.ko
-/etc/modules.d/30-fs-exfat
-/etc/modules-boot.d/30-fs-exfat

@@ -1,6 +1,0 @@
-/lib/apk/packages/vnstat2.list
-/usr/bin/vnstat
-/usr/sbin/vnstatd
-/etc/config/vnstat
-/etc/init.d/vnstat
-/etc/vnstat.conf

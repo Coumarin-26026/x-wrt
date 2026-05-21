@@ -1,4 +1,0 @@
-/lib/apk/packages/natflow-boot.list
-/lib/preinit/95_natflow-boot
-/etc/init.d/natflow-boot
-/etc/hotplug.d/iface/21-natflow-boot

@@ -1,9 +1,0 @@
-/lib/apk/packages/luci-app-atcommands.list
-/usr/share/ucitrack/luci-app-atcommands.json
-/usr/share/rpcd/acl.d/luci-app-atcommands.json
-/usr/share/luci/menu.d/luci-app-atcommands.json
-/etc/modem/atcommands.user
-/etc/config/atcommands
-/etc/uci-defaults/setupatcmds.sh
-/www/luci-static/resources/view/modem/atconfig.js
-/www/luci-static/resources/view/modem/atcommands.js

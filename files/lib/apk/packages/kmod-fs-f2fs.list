@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-fs-f2fs.list
-/lib/modules/6.6.71/f2fs.ko
-/etc/modules.d/30-fs-f2fs
-/etc/modules-boot.d/30-fs-f2fs

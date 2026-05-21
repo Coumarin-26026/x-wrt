@@ -1,3 +1,0 @@
-/lib/apk/packages/kmod-usb-serial-wwan.list
-/lib/modules/6.6.71/usb_wwan.ko
-/etc/modules.d/usb-serial-wwan

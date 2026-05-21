@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-usb-storage.list
-/lib/modules/6.6.71/usb-storage.ko
-/etc/modules.d/usb-storage
-/etc/modules-boot.d/usb-storage

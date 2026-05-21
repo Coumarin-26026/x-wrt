@@ -1,3 +1,0 @@
-/lib/apk/packages/kmod-crypto-aead.list
-/etc/modules.d/09-crypto-aead
-/etc/modules-boot.d/09-crypto-aead

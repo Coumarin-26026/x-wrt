@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-gpio-button-hotplug.list
-/lib/modules/6.6.71/gpio-button-hotplug.ko
-/etc/modules.d/30-gpio-button-hotplug
-/etc/modules-boot.d/30-gpio-button-hotplug

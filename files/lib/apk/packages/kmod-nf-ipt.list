@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-nf-ipt.list
-/lib/modules/6.6.71/ip_tables.ko
-/lib/modules/6.6.71/x_tables.ko
-/etc/modules.d/nf-ipt

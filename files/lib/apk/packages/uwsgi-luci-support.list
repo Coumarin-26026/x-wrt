@@ -1,3 +1,0 @@
-/lib/apk/packages/uwsgi-luci-support.list
-/etc/uwsgi/vassals/luci-webui.ini
-/etc/uwsgi/vassals/luci-cgi_io.ini

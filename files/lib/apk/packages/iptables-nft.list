@@ -1,7 +1,0 @@
-/lib/apk/packages/iptables-nft.list
-/lib/apk/packages/iptables-nft.alternatives
-/usr/sbin/iptables-nft
-/usr/sbin/iptables-nft-restore
-/usr/sbin/iptables-restore-translate
-/usr/sbin/iptables-nft-save
-/usr/sbin/iptables-translate

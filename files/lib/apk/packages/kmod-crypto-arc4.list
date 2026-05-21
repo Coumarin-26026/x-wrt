@@ -1,3 +1,0 @@
-/lib/apk/packages/kmod-crypto-arc4.list
-/lib/modules/6.6.71/arc4.ko
-/etc/modules.d/09-crypto-arc4

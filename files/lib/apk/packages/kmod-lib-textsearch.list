@@ -1,5 +1,0 @@
-/lib/apk/packages/kmod-lib-textsearch.list
-/lib/modules/6.6.71/ts_fsm.ko
-/lib/modules/6.6.71/ts_kmp.ko
-/lib/modules/6.6.71/ts_bm.ko
-/etc/modules.d/lib-textsearch

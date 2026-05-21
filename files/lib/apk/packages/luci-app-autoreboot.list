@@ -1,9 +1,0 @@
-/lib/apk/packages/luci-app-autoreboot.list
-/usr/share/ucitrack/luci-app-autoreboot.json
-/usr/share/rpcd/acl.d/luci-app-autoreboot.json
-/usr/share/luci/menu.d/luci-app-autoreboot.json
-/usr/lib/lua/luci/i18n/autoreboot.zh-cn.lmo
-/etc/config/autoreboot
-/etc/uci-defaults/40_luci-app-autoreboot
-/etc/init.d/autoreboot
-/www/luci-static/resources/view/system/autoreboot.js

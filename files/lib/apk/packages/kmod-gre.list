@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-gre.list
-/lib/modules/6.6.71/ip_gre.ko
-/lib/modules/6.6.71/gre.ko
-/etc/modules.d/39-gre

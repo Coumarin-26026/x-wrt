@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-usb-uhci.list
-/lib/modules/6.6.71/uhci-hcd.ko
-/etc/modules.d/50-usb-uhci
-/etc/modules-boot.d/50-usb-uhci

@@ -1,6 +1,0 @@
-/lib/apk/packages/kmod-scsi-core.list
-/lib/modules/6.6.71/scsi_mod.ko
-/lib/modules/6.6.71/sd_mod.ko
-/lib/modules/6.6.71/scsi_common.ko
-/etc/modules.d/40-scsi-core
-/etc/modules-boot.d/40-scsi-core

@@ -1,6 +1,0 @@
-/lib/apk/packages/kmod-nft-fib.list
-/lib/modules/6.6.71/nft_fib_inet.ko
-/lib/modules/6.6.71/nft_fib_ipv6.ko
-/lib/modules/6.6.71/nft_fib_ipv4.ko
-/lib/modules/6.6.71/nft_fib.ko
-/etc/modules.d/nft-fib

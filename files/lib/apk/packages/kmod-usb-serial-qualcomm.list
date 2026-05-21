@@ -1,3 +1,0 @@
-/lib/apk/packages/kmod-usb-serial-qualcomm.list
-/lib/modules/6.6.71/qcserial.ko
-/etc/modules.d/usb-serial-qualcomm

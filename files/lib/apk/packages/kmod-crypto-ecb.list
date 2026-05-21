@@ -1,3 +1,0 @@
-/lib/apk/packages/kmod-crypto-ecb.list
-/lib/modules/6.6.71/ecb.ko
-/etc/modules.d/09-crypto-ecb

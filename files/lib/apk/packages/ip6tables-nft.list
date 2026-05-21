@@ -1,7 +1,0 @@
-/lib/apk/packages/ip6tables-nft.alternatives
-/lib/apk/packages/ip6tables-nft.list
-/usr/sbin/ip6tables-restore-translate
-/usr/sbin/ip6tables-translate
-/usr/sbin/ip6tables-nft-restore
-/usr/sbin/ip6tables-nft-save
-/usr/sbin/ip6tables-nft

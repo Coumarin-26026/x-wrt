@@ -1,4 +1,0 @@
-/etc/config/internet-detector 0a72064b34b436597b43f245331d8ac877c16dec84d19fb0f3c896ceb0abebbb
-/etc/internet-detector/down-script.internet c00a7f1e95ae2bc55d5d804d073e2cb0a7a7a725aaac7325d12a0cc1190760f1
-/etc/internet-detector/up-script.internet f5a7b13ad263c6e0834524c9e99634de32c4201498e0dd7f4d8d3ddf3ce8d9b4
-/etc/internet-detector/public-ip-script.internet 60d95790008d517c8291c77a1d2e43d60f4da32b883524c63e34b43f3d4f2ad6

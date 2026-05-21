@@ -1,5 +1,0 @@
-/lib/apk/packages/kmod-nft-netdev.list
-/lib/modules/6.6.71/nf_dup_netdev.ko
-/lib/modules/6.6.71/nft_dup_netdev.ko
-/lib/modules/6.6.71/nft_fwd_netdev.ko
-/etc/modules.d/nft-netdev

@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-usb-dwc2.list
-/lib/modules/6.6.71/dwc2.ko
-/etc/modules.d/54-usb-dwc2
-/etc/modules-boot.d/54-usb-dwc2

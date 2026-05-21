@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-usb2-pci.list
-/lib/modules/6.6.71/ehci-pci.ko
-/etc/modules.d/42-usb2-pci
-/etc/modules-boot.d/42-usb2-pci

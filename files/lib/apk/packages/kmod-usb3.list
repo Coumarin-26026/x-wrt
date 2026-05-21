@@ -1,5 +1,0 @@
-/lib/apk/packages/kmod-usb3.list
-/lib/modules/6.6.71/xhci-plat-hcd.ko
-/lib/modules/6.6.71/xhci-pci.ko
-/etc/modules.d/54-usb3
-/etc/modules-boot.d/54-usb3

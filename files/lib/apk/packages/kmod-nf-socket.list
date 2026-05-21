@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-nf-socket.list
-/lib/modules/6.6.71/nf_socket_ipv4.ko
-/lib/modules/6.6.71/nf_socket_ipv6.ko
-/etc/modules.d/nf-socket

@@ -1,7 +1,0 @@
-/lib/apk/packages/luci-app-modeminfo.list
-/usr/share/rpcd/acl.d/luci-app-modeminfo.json
-/usr/share/luci/menu.d/luci-app-modeminfo.json
-/www/luci-static/resources/view/modem/setup.js
-/www/luci-static/resources/view/modem/hw.js
-/www/luci-static/resources/view/modem/main.js
-/www/luci-static/resources/view/status/include/26_modeminfo.js

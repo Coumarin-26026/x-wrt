@@ -1,7 +1,0 @@
-/lib/apk/packages/logd.list
-/lib/apk/packages/logd.rusers
-/lib/apk/packages/logd.alternatives
-/usr/share/acl.d/logd.json
-/usr/libexec/logread-ubox
-/etc/init.d/log
-/sbin/logd

@@ -1,6 +1,0 @@
-/lib/apk/packages/kmod-fs-ext4.list
-/lib/modules/6.6.71/jbd2.ko
-/lib/modules/6.6.71/ext4.ko
-/lib/modules/6.6.71/mbcache.ko
-/etc/modules.d/30-fs-ext4
-/etc/modules-boot.d/30-fs-ext4

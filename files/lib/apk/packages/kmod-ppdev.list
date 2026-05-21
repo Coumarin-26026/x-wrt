@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-ppdev.list
-/lib/modules/6.6.71/ppdev.ko
-/lib/modules/6.6.71/parport.ko
-/etc/modules.d/50-ppdev

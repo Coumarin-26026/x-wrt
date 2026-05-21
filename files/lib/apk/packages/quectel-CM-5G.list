@@ -1,7 +1,0 @@
-/lib/apk/packages/quectel-CM-5G.list
-/lib/netifd/proto/rmnet6.sh
-/lib/netifd/proto/rmnet.sh
-/lib/netifd/rmnet6.script
-/lib/netifd/rmnet.script
-/lib/netifd/rmnet_init.sh
-/usr/bin/quectel-CM

@@ -1,6 +1,0 @@
-/lib/upgrade/keep.d/odhcp6c
-/lib/apk/packages/odhcp6c.list
-/lib/netifd/proto/dhcpv6.sh
-/lib/netifd/dhcpv6.script
-/usr/sbin/odhcp6c
-/etc/odhcp6c.user

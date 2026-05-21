@@ -1,6 +1,0 @@
-/lib/apk/packages/nginx-ssl-util.list
-/usr/bin/nginx-util
-/etc/config/nginx
-/etc/nginx/restrict_locally
-/etc/nginx/uci.conf.template
-/etc/nginx/uci.conf

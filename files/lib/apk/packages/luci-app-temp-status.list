@@ -1,4 +1,0 @@
-/lib/apk/packages/luci-app-temp-status.list
-/usr/share/rpcd/acl.d/luci-app-temp-status.json
-/usr/libexec/rpcd/luci.temp-status
-/www/luci-static/resources/view/status/include/27_temp.js

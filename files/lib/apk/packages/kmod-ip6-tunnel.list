@@ -1,3 +1,0 @@
-/lib/apk/packages/kmod-ip6-tunnel.list
-/lib/modules/6.6.71/ip6_tunnel.ko
-/etc/modules.d/32-ip6-tunnel

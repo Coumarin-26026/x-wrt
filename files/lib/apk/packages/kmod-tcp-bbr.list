@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-tcp-bbr.list
-/lib/modules/6.6.71/tcp_bbr.ko
-/etc/modules.d/tcp-bbr
-/etc/sysctl.d/12-tcp-bbr.conf

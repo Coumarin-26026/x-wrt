@@ -1,5 +1,0 @@
-/lib/apk/packages/kmod-nft-bridge.list
-/lib/modules/6.6.71/nft_reject_bridge.ko
-/lib/modules/6.6.71/nf_conntrack_bridge.ko
-/lib/modules/6.6.71/nft_meta_bridge.ko
-/etc/modules.d/nft-bridge

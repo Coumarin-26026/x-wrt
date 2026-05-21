@@ -1,4 +1,0 @@
-/lib/apk/packages/kmod-usb-dwc2-pci.list
-/lib/modules/6.6.71/dwc2_pci.ko
-/etc/modules.d/54-usb-dwc2-pci
-/etc/modules-boot.d/54-usb-dwc2-pci

@@ -1,7 +1,0 @@
-/lib/apk/packages/natflow-auth.list
-/etc/config/natflow
-/etc/init.d/natflow-simple-qos
-/etc/init.d/natflow-zone
-/etc/init.d/natflow-qos
-/etc/init.d/natflow-user
-/etc/hotplug.d/iface/20-natflow-zone

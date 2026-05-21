@@ -1,6 +1,0 @@
-/lib/apk/packages/kmod-inet-diag.list
-/lib/modules/6.6.71/udp_diag.ko
-/lib/modules/6.6.71/raw_diag.ko
-/lib/modules/6.6.71/inet_diag.ko
-/lib/modules/6.6.71/tcp_diag.ko
-/etc/modules.d/31-inet-diag

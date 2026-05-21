@@ -1,9 +1,0 @@
-/lib/apk/packages/pptpd.list
-/usr/lib/pptpd/pptpd-logwtmp.so
-/usr/sbin/pptpd
-/usr/sbin/bcrelay
-/usr/sbin/pptpctrl
-/etc/config/pptpd
-/etc/pptpd.conf
-/etc/init.d/pptpd
-/etc/ppp/options.pptpd

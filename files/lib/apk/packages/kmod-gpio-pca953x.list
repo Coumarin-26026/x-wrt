@@ -1,3 +1,0 @@
-/lib/apk/packages/kmod-gpio-pca953x.list
-/lib/modules/6.6.71/gpio-pca953x.ko
-/etc/modules.d/55-gpio-pca953x

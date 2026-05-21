@@ -1,7 +1,0 @@
-/lib/apk/packages/xmm-modem.list
-/lib/netifd/proto/xmm.sh
-/etc/gcom/xmm-connect.gcom
-/etc/gcom/xmm-config.gcom
-/etc/gcom/xmm-disconnect.gcom
-/etc/gcom/xmm-auth.gcom
-/etc/hotplug.d/usb/01_xmm.sh

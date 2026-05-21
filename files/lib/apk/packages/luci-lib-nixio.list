@@ -1,5 +1,0 @@
-/lib/upgrade/luci-add-conffiles.sh
-/lib/apk/packages/luci-lib-nixio.list
-/usr/lib/lua/nixio/fs.lua
-/usr/lib/lua/nixio/util.lua
-/usr/lib/lua/nixio.so
