@@ -50,7 +50,7 @@ jobs:
       # 5. Extract firmware
       - name: Extract firmware
         run: |
-          sudo binwalk -Me firmware.bin
+          sudo binwalk -Me --run-as=root firmware.bin
 
       # 6. Fix permissions
       - name: Fix permissions
