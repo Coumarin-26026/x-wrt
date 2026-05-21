@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-printer.list
+/lib/modules/6.6.71/usblp.ko
+/etc/modules.d/usb-printer

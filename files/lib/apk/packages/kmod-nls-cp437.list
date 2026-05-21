@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-nls-cp437.list
+/lib/modules/6.6.71/nls_cp437.ko
+/etc/modules.d/25-nls-cp437

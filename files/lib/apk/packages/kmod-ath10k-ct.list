@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-ath10k-ct.list
+/lib/modules/6.6.71/ath10k_pci.ko
+/lib/modules/6.6.71/ath10k_core.ko
+/etc/modules.d/ath10k-ct

@@ -1,0 +1,4 @@
+/lib/apk/packages/wifischedule.list
+/usr/bin/wifi_schedule.sh
+/etc/config/wifi_schedule
+/etc/init.d/wifi_schedule

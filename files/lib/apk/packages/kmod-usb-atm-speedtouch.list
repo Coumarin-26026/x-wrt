@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-atm-speedtouch.list
+/lib/modules/6.6.71/speedtch.ko
+/etc/modules.d/usb-atm-speedtouch

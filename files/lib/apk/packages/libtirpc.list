@@ -1,0 +1,5 @@
+/lib/apk/packages/libtirpc.list
+/usr/lib/libtirpc.so
+/usr/lib/libtirpc.so.3.0.0
+/usr/lib/libtirpc.so.3
+/etc/netconfig

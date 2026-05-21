@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-phy-qcom-ipq806x-usb.list
+/lib/modules/6.6.71/phy-qcom-ipq806x-usb.ko
+/etc/modules.d/45-phy-qcom-ipq806x-usb
+/etc/modules-boot.d/45-phy-qcom-ipq806x-usb

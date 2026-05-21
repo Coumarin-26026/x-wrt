@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-net-smsc75xx.list
+/lib/modules/6.6.71/smsc75xx.ko
+/etc/modules.d/usb-net-smsc75xx

@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-serial-ftdi.list
+/lib/modules/6.6.71/ftdi_sio.ko
+/etc/modules.d/usb-serial-ftdi

@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-phy-microchip.list
+/lib/modules/6.6.71/microchip.ko
+/etc/modules.d/18-phy-microchip
+/etc/modules-boot.d/18-phy-microchip

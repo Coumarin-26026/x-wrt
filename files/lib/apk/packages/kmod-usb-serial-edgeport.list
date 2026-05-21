@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-serial-edgeport.list
+/lib/modules/6.6.71/io_edgeport.ko
+/etc/modules.d/usb-serial-edgeport

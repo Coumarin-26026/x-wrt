@@ -1,0 +1,2 @@
+/lib/apk/packages/luci-lib-ipkg.list
+/usr/lib/lua/luci/model/ipkg.lua

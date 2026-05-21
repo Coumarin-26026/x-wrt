@@ -1,0 +1,11 @@
+/lib/functions/fsck/e2fsck.sh
+/lib/apk/packages/e2fsprogs.list
+/usr/sbin/e2fsck
+/usr/sbin/fsck.ext4
+/usr/sbin/mkfs.ext3
+/usr/sbin/mkfs.ext4
+/usr/sbin/mkfs.ext2
+/usr/sbin/fsck.ext2
+/usr/sbin/mke2fs
+/usr/sbin/fsck.ext3
+/etc/e2fsck.conf

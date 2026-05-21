@@ -1,0 +1,12 @@
+/lib/apk/packages/kmod-usb-storage-extras.list
+/lib/modules/6.6.71/ums-sddr55.ko
+/lib/modules/6.6.71/ums-jumpshot.ko
+/lib/modules/6.6.71/ums-karma.ko
+/lib/modules/6.6.71/ums-usbat.ko
+/lib/modules/6.6.71/ums-isd200.ko
+/lib/modules/6.6.71/ums-cypress.ko
+/lib/modules/6.6.71/ums-alauda.ko
+/lib/modules/6.6.71/ums-freecom.ko
+/lib/modules/6.6.71/ums-sddr09.ko
+/lib/modules/6.6.71/ums-datafab.ko
+/etc/modules.d/usb-storage-extras

@@ -1,0 +1,2 @@
+/lib/apk/packages/kmod-net-selftests.list
+/etc/modules.d/99-net-selftests

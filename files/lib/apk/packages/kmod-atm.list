@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-atm.list
+/lib/modules/6.6.71/atm.ko
+/lib/modules/6.6.71/br2684.ko
+/etc/modules.d/30-atm

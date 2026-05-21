@@ -1,0 +1,3 @@
+/lib/apk/packages/ca-bundle.list
+/etc/ssl/certs/ca-certificates.crt
+/etc/ssl/cert.pem

@@ -1,0 +1,3 @@
+/lib/apk/packages/luci-i18n-firewall-vi.list
+/usr/lib/lua/luci/i18n/firewall.vi.lmo
+/etc/uci-defaults/luci-i18n-firewall-vi

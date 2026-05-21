@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-net-aqc111.list
+/lib/modules/6.6.71/aqc111.ko
+/etc/modules.d/usb-net-aqc111

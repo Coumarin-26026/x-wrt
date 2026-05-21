@@ -1,0 +1,14 @@
+/lib/upgrade/keep.d/dnsmasq-full
+/lib/apk/packages/dnsmasq-full.rusers
+/lib/apk/packages/dnsmasq-full.list
+/usr/share/dnsmasq/rfc6761.conf
+/usr/share/dnsmasq/dhcpbogushostname.conf
+/usr/share/acl.d/dnsmasq_acl.json
+/usr/lib/dnsmasq/dhcp-script.sh
+/usr/sbin/dnsmasq
+/etc/dnsmasq.conf
+/etc/config/dhcp
+/etc/uci-defaults/50-dnsmasq-migrate-resolv-conf-auto.sh
+/etc/uci-defaults/50-dnsmasq-migrate-ipset.sh
+/etc/init.d/dnsmasq
+/etc/hotplug.d/ntp/25-dnsmasqsec

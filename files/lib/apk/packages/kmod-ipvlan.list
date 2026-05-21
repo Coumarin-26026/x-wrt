@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-ipvlan.list
+/lib/modules/6.6.71/ipvlan.ko
+/etc/modules.d/ipvlan

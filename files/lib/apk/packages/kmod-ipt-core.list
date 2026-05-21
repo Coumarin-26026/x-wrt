@@ -1,0 +1,14 @@
+/lib/apk/packages/kmod-ipt-core.list
+/lib/modules/6.6.71/xt_mac.ko
+/lib/modules/6.6.71/xt_TCPMSS.ko
+/lib/modules/6.6.71/ipt_REJECT.ko
+/lib/modules/6.6.71/iptable_mangle.ko
+/lib/modules/6.6.71/xt_multiport.ko
+/lib/modules/6.6.71/xt_mark.ko
+/lib/modules/6.6.71/xt_comment.ko
+/lib/modules/6.6.71/xt_time.ko
+/lib/modules/6.6.71/xt_limit.ko
+/lib/modules/6.6.71/xt_tcpudp.ko
+/lib/modules/6.6.71/iptable_filter.ko
+/lib/modules/6.6.71/xt_LOG.ko
+/etc/modules.d/ipt-core

@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-crypto-authenc.list
+/lib/modules/6.6.71/authencesn.ko
+/lib/modules/6.6.71/authenc.ko
+/etc/modules.d/09-crypto-authenc

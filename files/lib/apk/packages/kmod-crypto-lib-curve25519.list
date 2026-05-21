@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-crypto-lib-curve25519.list
+/lib/modules/6.6.71/curve25519-neon.ko
+/lib/modules/6.6.71/libcurve25519-generic.ko
+/lib/modules/6.6.71/libcurve25519.ko

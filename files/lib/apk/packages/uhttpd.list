@@ -1,0 +1,5 @@
+/lib/upgrade/keep.d/uhttpd
+/lib/apk/packages/uhttpd.list
+/usr/sbin/uhttpd
+/etc/config/uhttpd
+/etc/init.d/uhttpd

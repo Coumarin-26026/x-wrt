@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-fs-ntfs3.list
+/lib/modules/6.6.71/ntfs3.ko
+/etc/modules.d/80-fs-ntfs3

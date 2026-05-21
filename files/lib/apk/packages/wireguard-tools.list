@@ -1,0 +1,4 @@
+/lib/apk/packages/wireguard-tools.list
+/lib/netifd/proto/wireguard.sh
+/usr/bin/wg
+/usr/bin/wireguard_watchdog

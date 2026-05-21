@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-usb-ehci.list
+/lib/modules/6.6.71/ehci-hcd.ko
+/etc/modules.d/35-usb-ehci
+/etc/modules-boot.d/35-usb-ehci

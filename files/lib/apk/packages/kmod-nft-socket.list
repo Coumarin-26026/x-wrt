@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-nft-socket.list
+/lib/modules/6.6.71/nft_socket.ko
+/etc/modules.d/nft-socket

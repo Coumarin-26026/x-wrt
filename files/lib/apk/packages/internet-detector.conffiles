@@ -1,0 +1,4 @@
+/etc/config/internet-detector
+/etc/internet-detector/down-script.internet
+/etc/internet-detector/up-script.internet
+/etc/internet-detector/public-ip-script.internet

@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-serial-ipw.list
+/lib/modules/6.6.71/ipw.ko
+/etc/modules.d/usb-serial-ipw

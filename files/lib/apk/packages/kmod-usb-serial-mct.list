@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-serial-mct.list
+/lib/modules/6.6.71/mct_u232.ko
+/etc/modules.d/usb-serial-mct

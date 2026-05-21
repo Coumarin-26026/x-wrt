@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-net-huawei-cdc-ncm.list
+/lib/modules/6.6.71/huawei_cdc_ncm.ko
+/etc/modules.d/usb-net-huawei-cdc-ncm

@@ -1,0 +1,5 @@
+/lib/apk/packages/luci-app-watchcat.list
+/usr/share/ucitrack/luci-app-watchcat.json
+/usr/share/rpcd/acl.d/luci-app-watchcat.json
+/usr/share/luci/menu.d/luci-app-watchcat.json
+/www/luci-static/resources/view/watchcat.js

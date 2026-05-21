@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-nf-conncount.list
+/lib/modules/6.6.71/nf_conncount.ko
+/etc/modules.d/nf-conncount

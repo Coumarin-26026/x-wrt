@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-ifb.list
+/lib/modules/6.6.71/ifb.ko
+/etc/modules.d/34-ifb

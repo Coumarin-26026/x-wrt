@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-pppoe.list
+/lib/modules/6.6.71/pppoe.ko
+/etc/modules.d/pppoe

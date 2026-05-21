@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-serial-cypress-m8.list
+/lib/modules/6.6.71/cypress_m8.ko
+/etc/modules.d/usb-serial-cypress-m8

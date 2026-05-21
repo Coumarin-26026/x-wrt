@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-usb-ohci-pci.list
+/lib/modules/6.6.71/ohci-pci.ko
+/etc/modules.d/51-usb-ohci-pci
+/etc/modules-boot.d/51-usb-ohci-pci

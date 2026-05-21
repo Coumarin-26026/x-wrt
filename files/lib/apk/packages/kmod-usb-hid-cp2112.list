@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-hid-cp2112.list
+/lib/modules/6.6.71/hid-cp2112.ko
+/etc/modules.d/usb-hid-cp2112

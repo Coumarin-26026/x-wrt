@@ -1,0 +1,4 @@
+/lib/apk/packages/umdns.list
+/usr/sbin/umdns
+/etc/config/umdns
+/etc/init.d/umdns

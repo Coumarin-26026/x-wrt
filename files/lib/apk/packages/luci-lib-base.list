@@ -1,0 +1,5 @@
+/lib/apk/packages/luci-lib-base.list
+/usr/lib/lua/luci/http.lua
+/usr/lib/lua/luci/ltn12.lua
+/usr/lib/lua/luci/debug.lua
+/usr/lib/lua/luci/util.lua

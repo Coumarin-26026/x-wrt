@@ -1,0 +1,8 @@
+/lib/apk/packages/luci-app-argon-config.list
+/usr/share/ucitrack/luci-app-argon-config.json
+/usr/share/rpcd/acl.d/luci-app-argon-config.json
+/usr/share/luci/menu.d/luci-app-argon-config.json
+/usr/libexec/rpcd/luci.argon
+/etc/config/argon
+/etc/uci-defaults/luci-argon-config
+/www/luci-static/resources/view/argon-config.js

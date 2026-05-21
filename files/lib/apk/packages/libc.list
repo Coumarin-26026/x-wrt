@@ -1,0 +1,4 @@
+/lib/apk/packages/libc.list
+/lib/ld-musl-armhf.so.1
+/lib/libc.so
+/usr/bin/ldd

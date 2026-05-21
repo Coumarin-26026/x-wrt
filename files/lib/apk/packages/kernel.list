@@ -1,0 +1,3 @@
+/lib/apk/packages/kernel.list
+/lib/modules/6.6.71/modules.builtin
+/lib/modules/6.6.71/modules.builtin.modinfo

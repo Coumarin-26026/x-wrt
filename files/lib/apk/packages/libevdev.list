@@ -1,0 +1,3 @@
+/lib/apk/packages/libevdev.list
+/usr/lib/libevdev.so.2
+/usr/lib/libevdev.so.2.3.0

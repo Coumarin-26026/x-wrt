@@ -1,0 +1,7 @@
+/lib/apk/packages/libmbedtls.list
+/usr/lib/libmbedx509.so.3.6.2
+/usr/lib/libmbedtls.so.3.6.2
+/usr/lib/libmbedcrypto.so.3.6.2
+/usr/lib/libmbedx509.so.7
+/usr/lib/libmbedcrypto.so.16
+/usr/lib/libmbedtls.so.21

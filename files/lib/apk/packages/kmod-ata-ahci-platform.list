@@ -1,0 +1,5 @@
+/lib/apk/packages/kmod-ata-ahci-platform.list
+/lib/modules/6.6.71/libahci_platform.ko
+/lib/modules/6.6.71/ahci_platform.ko
+/etc/modules.d/40-ata-ahci-platform
+/etc/modules-boot.d/40-ata-ahci-platform

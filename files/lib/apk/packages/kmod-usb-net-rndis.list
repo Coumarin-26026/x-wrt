@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-net-rndis.list
+/lib/modules/6.6.71/rndis_host.ko
+/etc/modules.d/usb-net-rndis

@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-hwmon-lm75.list
+/lib/modules/6.6.71/lm75.ko
+/etc/modules.d/hwmon-lm75

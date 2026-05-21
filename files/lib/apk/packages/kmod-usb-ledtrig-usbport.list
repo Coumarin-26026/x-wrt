@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-ledtrig-usbport.list
+/lib/modules/6.6.71/ledtrig-usbport.ko
+/etc/modules.d/50-usb-ledtrig-usbport

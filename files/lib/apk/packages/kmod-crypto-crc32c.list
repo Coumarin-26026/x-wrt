@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-crypto-crc32c.list
+/lib/modules/6.6.71/crc32c_generic.ko
+/etc/modules.d/04-crypto-crc32c
+/etc/modules-boot.d/04-crypto-crc32c

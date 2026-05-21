@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-sched-cake.list
+/lib/modules/6.6.71/sch_cake.ko
+/etc/modules.d/sched-cake

@@ -1,0 +1,7 @@
+/lib/apk/packages/fm350-modem.list
+/lib/netifd/proto/fm350.sh
+/etc/gcom/fm350-config.gcom
+/etc/gcom/fm350-auth.gcom
+/etc/gcom/fm350-disconnect.gcom
+/etc/gcom/fm350-connect.gcom
+/etc/hotplug.d/usb/01_fm350.sh

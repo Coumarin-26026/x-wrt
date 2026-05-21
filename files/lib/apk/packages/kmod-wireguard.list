@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-wireguard.list
+/lib/modules/6.6.71/wireguard.ko
+/etc/modules.d/wireguard

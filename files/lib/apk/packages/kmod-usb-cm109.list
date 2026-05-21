@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-cm109.list
+/lib/modules/6.6.71/cm109.ko
+/etc/modules.d/usb-cm109

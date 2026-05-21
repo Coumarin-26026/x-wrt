@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-net-dm9601-ether.list
+/lib/modules/6.6.71/dm9601.ko
+/etc/modules.d/usb-net-dm9601-ether

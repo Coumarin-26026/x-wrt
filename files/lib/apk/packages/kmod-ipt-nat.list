@@ -1,0 +1,6 @@
+/lib/apk/packages/kmod-ipt-nat.list
+/lib/modules/6.6.71/xt_nat.ko
+/lib/modules/6.6.71/xt_REDIRECT.ko
+/lib/modules/6.6.71/iptable_nat.ko
+/lib/modules/6.6.71/xt_MASQUERADE.ko
+/etc/modules.d/ipt-nat

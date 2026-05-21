@@ -1,0 +1,7 @@
+/lib/apk/packages/miniupnpd-nftables.list
+/usr/share/miniupnpd/core.sh
+/usr/sbin/miniupnpd
+/etc/config/upnpd
+/etc/uci-defaults/99-miniupnpd-nft
+/etc/init.d/miniupnpd
+/etc/hotplug.d/iface/50-miniupnpd

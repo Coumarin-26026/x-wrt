@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-crypto-sha1.list
+/lib/modules/6.6.71/sha1_generic.ko
+/lib/modules/6.6.71/sha1-arm.ko
+/etc/modules.d/09-crypto-sha1

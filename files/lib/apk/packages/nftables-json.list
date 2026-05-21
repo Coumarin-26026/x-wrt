@@ -1,0 +1,5 @@
+/lib/apk/packages/nftables-json.list
+/usr/lib/libnftables.so.1.1.0
+/usr/lib/libnftables.so.1
+/usr/lib/libnftables.so
+/usr/sbin/nft

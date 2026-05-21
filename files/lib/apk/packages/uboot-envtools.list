@@ -1,0 +1,10 @@
+/lib/uboot-envtools.sh
+/lib/upgrade/keep.d/uboot-envtools
+/lib/apk/packages/uboot-envtools.list
+/usr/sbin/fw_setenv
+/usr/sbin/fw_printenv
+/usr/sbin/fw_printsys
+/usr/sbin/fw_loadenv
+/usr/sbin/fw_setsys
+/etc/uci-defaults/30_uboot-envtools
+/etc/board.d/05_fw_defaults

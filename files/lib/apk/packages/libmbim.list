@@ -1,0 +1,4 @@
+/lib/apk/packages/libmbim.list
+/usr/libexec/mbim-proxy
+/usr/lib/libmbim-glib.so.4.8.0
+/usr/lib/libmbim-glib.so.4

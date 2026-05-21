@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-nft-tproxy.list
+/lib/modules/6.6.71/nft_tproxy.ko
+/etc/modules.d/nft-tproxy

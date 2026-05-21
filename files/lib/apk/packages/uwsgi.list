@@ -1,0 +1,4 @@
+/lib/apk/packages/uwsgi.list
+/usr/sbin/uwsgi
+/etc/uwsgi/emperor.ini
+/etc/init.d/uwsgi

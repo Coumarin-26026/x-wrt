@@ -1,0 +1,6 @@
+/lib/apk/packages/hostapd-common.list
+/lib/netifd/dhcp-get-server.sh
+/usr/share/acl.d/wpad_acl.json
+/etc/rc.button/wps
+/etc/init.d/wpad
+/etc/capabilities/wpad.json

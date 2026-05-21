@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-usb-xhci-hcd.list
+/lib/modules/6.6.71/xhci-hcd.ko
+/etc/modules.d/54-usb-xhci-hcd
+/etc/modules-boot.d/54-usb-xhci-hcd

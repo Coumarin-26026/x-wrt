@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-net-sierrawireless.list
+/lib/modules/6.6.71/sierra_net.ko
+/etc/modules.d/usb-net-sierrawireless

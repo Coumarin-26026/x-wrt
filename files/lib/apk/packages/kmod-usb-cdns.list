@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-usb-cdns.list
+/lib/modules/6.6.71/cdns-usb-common.ko
+/etc/modules.d/50-usb-cdns
+/etc/modules-boot.d/50-usb-cdns

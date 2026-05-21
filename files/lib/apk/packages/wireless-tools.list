@@ -1,0 +1,4 @@
+/lib/apk/packages/wireless-tools.list
+/usr/sbin/iwlist
+/usr/sbin/iwpriv
+/usr/sbin/iwconfig

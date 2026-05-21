@@ -1,0 +1,3 @@
+/lib/apk/packages/nginx-mod-ubus.list
+/usr/lib/nginx/modules/ngx_http_ubus_module.so
+/etc/nginx/module.d/ngx_http_ubus.module

@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-ppp.list
+/lib/modules/6.6.71/ppp_generic.ko
+/lib/modules/6.6.71/ppp_async.ko
+/etc/modules.d/ppp

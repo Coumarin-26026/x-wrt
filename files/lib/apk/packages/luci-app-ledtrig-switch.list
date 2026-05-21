@@ -1,0 +1,4 @@
+/lib/apk/packages/luci-app-ledtrig-switch.list
+/usr/share/rpcd/acl.d/luci-app-ledtrig-switch.json
+/usr/libexec/led-trigger/switch
+/www/luci-static/resources/view/system/led-trigger/switch.js

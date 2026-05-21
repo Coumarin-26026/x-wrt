@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-serial-oti6858.list
+/lib/modules/6.6.71/oti6858.ko
+/etc/modules.d/usb-serial-oti6858

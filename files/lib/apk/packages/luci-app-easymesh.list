@@ -1,0 +1,8 @@
+/lib/apk/packages/luci-app-easymesh.list
+/usr/share/ucitrack/luci-app-easymesh.json
+/usr/share/rpcd/acl.d/luci-app-easymesh.json
+/usr/lib/lua/luci/controller/easymesh.lua
+/usr/lib/lua/luci/model/cbi/easymesh.lua
+/etc/config/easymesh
+/etc/uci-defaults/luci-easymesh
+/etc/init.d/easymesh

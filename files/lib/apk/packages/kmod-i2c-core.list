@@ -1,0 +1,2 @@
+/lib/apk/packages/kmod-i2c-core.list
+/etc/modules.d/51-i2c-core

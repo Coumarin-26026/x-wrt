@@ -1,0 +1,11 @@
+/lib/upgrade/keep.d/ppp
+/lib/apk/packages/ppp.list
+/lib/netifd/proto/ppp.sh
+/lib/netifd/ppp6-up
+/lib/netifd/ppp-down
+/lib/netifd/ppp-up
+/usr/sbin/pppd
+/etc/ppp/filter
+/etc/ppp/resolv.conf
+/etc/ppp/chap-secrets
+/etc/ppp/options

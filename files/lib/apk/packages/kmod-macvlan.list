@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-macvlan.list
+/lib/modules/6.6.71/macvlan.ko
+/etc/modules.d/macvlan

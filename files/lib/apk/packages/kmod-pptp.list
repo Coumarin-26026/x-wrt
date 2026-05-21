@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-pptp.list
+/lib/modules/6.6.71/pptp.ko
+/etc/modules.d/pptp

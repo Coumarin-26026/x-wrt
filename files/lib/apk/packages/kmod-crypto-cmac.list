@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-crypto-cmac.list
+/lib/modules/6.6.71/cmac.ko
+/etc/modules.d/09-crypto-cmac

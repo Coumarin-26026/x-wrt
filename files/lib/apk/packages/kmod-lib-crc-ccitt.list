@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-lib-crc-ccitt.list
+/lib/modules/6.6.71/crc-ccitt.ko
+/etc/modules.d/lib-crc-ccitt

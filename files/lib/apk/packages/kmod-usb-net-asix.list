@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-net-asix.list
+/lib/modules/6.6.71/asix.ko
+/etc/modules.d/usb-net-asix

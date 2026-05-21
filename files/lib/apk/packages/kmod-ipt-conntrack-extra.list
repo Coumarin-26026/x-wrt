@@ -1,0 +1,7 @@
+/lib/apk/packages/kmod-ipt-conntrack-extra.list
+/lib/modules/6.6.71/xt_connmark.ko
+/lib/modules/6.6.71/xt_helper.ko
+/lib/modules/6.6.71/xt_connlimit.ko
+/lib/modules/6.6.71/xt_connbytes.ko
+/lib/modules/6.6.71/xt_recent.ko
+/etc/modules.d/ipt-conntrack-extra

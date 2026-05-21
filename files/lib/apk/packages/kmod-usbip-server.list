@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usbip-server.list
+/lib/modules/6.6.71/usbip-host.ko
+/etc/modules.d/usbip-server

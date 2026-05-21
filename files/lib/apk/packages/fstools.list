@@ -1,0 +1,6 @@
+/lib/apk/packages/fstools.list
+/lib/libfstools.so
+/sbin/mount_root
+/sbin/jffs2mark
+/sbin/jffs2reset
+/sbin/factoryreset

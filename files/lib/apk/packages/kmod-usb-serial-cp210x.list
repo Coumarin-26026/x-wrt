@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-serial-cp210x.list
+/lib/modules/6.6.71/cp210x.ko
+/etc/modules.d/usb-serial-cp210x

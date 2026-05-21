@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-hid-generic.list
+/lib/modules/6.6.71/hid-generic.ko
+/etc/modules.d/hid-generic

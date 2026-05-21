@@ -1,0 +1,4 @@
+/lib/apk/packages/comgt-directip.list
+/lib/netifd/proto/directip.sh
+/etc/gcom/directip.gcom
+/etc/gcom/directip-stop.gcom

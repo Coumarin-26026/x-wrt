@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-cfg80211.list
+/lib/modules/6.6.71/compat.ko
+/lib/modules/6.6.71/cfg80211.ko

@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-tcp-scalable.list
+/lib/modules/6.6.71/tcp_scalable.ko
+/etc/modules.d/tcp-scalable

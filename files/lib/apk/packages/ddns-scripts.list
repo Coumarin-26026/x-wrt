@@ -1,0 +1,10 @@
+/lib/apk/packages/ddns-scripts.list
+/usr/bin/ddns
+/usr/share/ddns/version
+/usr/lib/ddns/dynamic_dns_lucihelper.sh
+/usr/lib/ddns/dynamic_dns_updater.sh
+/usr/lib/ddns/dynamic_dns_functions.sh
+/etc/config/ddns
+/etc/uci-defaults/99-ddns
+/etc/init.d/ddns
+/etc/hotplug.d/iface/95-ddns

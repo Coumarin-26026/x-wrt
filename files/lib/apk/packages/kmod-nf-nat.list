@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-nf-nat.list
+/lib/modules/6.6.71/nf_nat.ko
+/etc/modules.d/nf-nat

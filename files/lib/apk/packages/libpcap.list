@@ -1,0 +1,3 @@
+/lib/apk/packages/libpcap.list
+/usr/lib/libpcap.so.1
+/usr/lib/libpcap.so.1.10.5

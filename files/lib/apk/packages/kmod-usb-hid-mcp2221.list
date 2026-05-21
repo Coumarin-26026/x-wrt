@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-hid-mcp2221.list
+/lib/modules/6.6.71/hid-mcp2221.ko
+/etc/modules.d/usb-hid-mcp2221

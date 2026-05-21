@@ -1,0 +1,3 @@
+/lib/apk/packages/kmod-usb-net-ipheth.list
+/lib/modules/6.6.71/ipheth.ko
+/etc/modules.d/usb-net-ipheth

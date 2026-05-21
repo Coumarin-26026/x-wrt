@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-usb-serial-keyspan.list
+/lib/modules/6.6.71/ezusb.ko
+/lib/modules/6.6.71/keyspan.ko
+/etc/modules.d/usb-serial-keyspan

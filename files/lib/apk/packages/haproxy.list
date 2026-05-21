@@ -1,0 +1,4 @@
+/lib/apk/packages/haproxy.list
+/usr/sbin/haproxy
+/etc/haproxy.cfg
+/etc/init.d/haproxy

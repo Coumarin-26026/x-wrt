@@ -1,0 +1,6 @@
+/lib/apk/packages/kmod-nf-conntrack.list
+/lib/modules/6.6.71/nf_conntrack.ko
+/lib/modules/6.6.71/nf_defrag_ipv4.ko
+/lib/modules/6.6.71/nf_defrag_ipv6.ko
+/etc/modules.d/nf-conntrack
+/etc/sysctl.d/11-nf-conntrack.conf

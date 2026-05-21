@@ -1,0 +1,3 @@
+/lib/apk/packages/nginx-mod-luci.list
+/etc/uci-defaults/60_nginx-luci-support
+/etc/nginx/conf.d/luci.locations

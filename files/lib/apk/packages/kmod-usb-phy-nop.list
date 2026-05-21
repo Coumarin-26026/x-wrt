@@ -1,0 +1,4 @@
+/lib/apk/packages/kmod-usb-phy-nop.list
+/lib/modules/6.6.71/phy-generic.ko
+/etc/modules.d/21-usb-phy-nop
+/etc/modules-boot.d/21-usb-phy-nop
