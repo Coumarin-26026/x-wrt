@@ -12,18 +12,30 @@ jobs:
 
     steps:
 
-      # Checkout repository
+      # Checkout
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Install tools
+      # Install dependencies
       - name: Install tools
         run: |
           sudo apt update
+
           sudo apt install -y \
-            wget curl git file rsync \
-            binwalk squashfs-tools sasquatch \
-            p7zip-full unzip xz-utils gzip bzip2 tar
+            wget \
+            curl \
+            git \
+            file \
+            rsync \
+            p7zip-full \
+            unzip \
+            xz-utils \
+            gzip \
+            bzip2 \
+            tar \
+            binwalk \
+            squashfs-tools \
+            sasquatch
 
       # Download firmware
       - name: Download firmware
@@ -40,7 +52,10 @@ jobs:
       # Extract firmware
       - name: Extract firmware
         run: |
-          sudo binwalk -Me firmware.bin
+          sudo binwalk \
+            --run-as=root \
+            -Me \
+            firmware.bin
 
       # Fix permissions
       - name: Fix permissions
@@ -49,13 +64,14 @@ jobs:
           chmod -R u+rwX .
 
       # Find squashfs-root
-      - name: Locate rootfs
+      - name: Find squashfs-root
         run: |
-          echo "Searching squashfs-root..."
+          echo "===== FIND ROOTFS ====="
+
           find . -type d -name "squashfs-root"
 
-      # Prepare files directory
-      - name: Prepare files
+      # Prepare output
+      - name: Prepare rootfs
         run: |
           rm -rf files
           mkdir -p files
@@ -67,7 +83,8 @@ jobs:
             exit 1
           fi
 
-          echo "FOUND ROOTFS: $ROOTFS_DIR"
+          echo "FOUND ROOTFS:"
+          echo "$ROOTFS_DIR"
 
           rsync -a \
             --delete \
@@ -80,34 +97,36 @@ jobs:
             files/
 
       # Show extracted files
-      - name: Show files
+      - name: Show rootfs
         run: |
-          echo "===== FILES ====="
-          du -sh files
+          echo "===== ROOTFS ====="
+
+          du -sh rootfs
+
           find files | head -200
 
-      # Optional: pack backup
-      - name: Create archive
+      # Create archive
+      - name: Pack rootfs
         run: |
-          tar -czf files.tar.gz files
+          tar -czf rootfs.tar.gz rootfs
 
-      # Upload artifact (recommended)
+      # Upload artifact
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: openwrt-files
+          name: openwrt-rootfs
           path: |
-            files
-            files.tar.gz
+            rootfs
+            rootfs.tar.gz
 
-      # Commit to repo
-      - name: Commit files
+      # Commit extracted rootfs
+      - name: Commit rootfs
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
           git add files
 
-          git commit -m "Auto extract firmware to files" || echo "No changes"
+          git commit -m "Auto extract firmware files" || echo "No changes"
 
           git push
