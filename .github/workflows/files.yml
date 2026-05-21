@@ -1,0 +1,85 @@
+name: OpenWrt FILES Extractor
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Install tools
+      - name: Install tools
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            wget \
+            curl \
+            binwalk \
+            squashfs-tools \
+            p7zip-full \
+            rsync \
+            file
+      # Download firmware
+      - name: Download firmware
+        run: |
+          wget -O firmware.bin \
+          "https://drive.usercontent.google.com/uc?id=1mxqnnH5r3YLlU4on0YMZVTZSrre72C3o&export=download"
+      # Show firmware
+      - name: Show firmware
+        run: |
+          ls -lah
+          file firmware.bin
+      # Extract firmware
+      - name: Extract firmware
+        run: |
+          sudo binwalk --run-as=root -eM firmware.bin
+      # Fix permissions
+      - name: Fix permissions
+        run: |
+          sudo chmod -R 755 .
+          sudo chown -R $USER:$USER .
+      # Find squashfs-root
+      - name: Find squashfs-root
+        run: |
+          echo "===== SEARCH squashfs-root ====="
+          find . -type d -name "squashfs-root"
+      # Remove old rootfs
+      - name: Remove old rootfs
+        run: |
+          rm -rf rootfs
+      # Copy squashfs-root safely
+      - name: Copy squashfs-root
+        run: |
+          mkdir -p files
+          FILES_DIR=$(find . -type d -name "squashfs-root" | head -n 1)
+          echo "FOUND FILES:"
+          echo "$FILES_DIR"
+          rsync -a \
+            --exclude dev \
+            --exclude proc \
+            --exclude sys \
+            --exclude tmp \
+            "$FILES_DIR"/ \
+            files/
+      # Show files
+      - name: Show files
+        run: |
+          echo "===== FILES ====="
+          find files | head -200
+      # Commit files to GitHub
+      - name: Commit files
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add files
+          git commit -m "Auto extract firmware files" || echo "No changes"
+          git push
