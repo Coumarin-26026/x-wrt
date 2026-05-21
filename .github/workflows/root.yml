@@ -12,11 +12,15 @@ jobs:
 
     steps:
 
-      # 1. Checkout repo
+      # =====================
+      # Checkout repo
+      # =====================
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Install dependencies (FIX: removed sasquatch)
+      # =====================
+      # Install tools (NO sasquatch)
+      # =====================
       - name: Install tools
         run: |
           sudo apt update
@@ -35,36 +39,47 @@ jobs:
             binwalk \
             squashfs-tools
 
-      # 3. Download firmware
+      # =====================
+      # Download firmware
+      # =====================
       - name: Download firmware
         run: |
           wget -O firmware.bin \
           "https://drive.usercontent.google.com/uc?id=1mxqnnH5r3YLlU4on0YMZVTZSrre72C3o&export=download"
 
-      # 4. Show firmware info
+      # =====================
+      # Show firmware info
+      # =====================
       - name: Show firmware info
         run: |
           ls -lah
           file firmware.bin
 
-      # 5. Extract firmware
+      # =====================
+      # Extract firmware (FIXED)
+      # =====================
       - name: Extract firmware
         run: |
           sudo binwalk -Me --run-as=root firmware.bin
 
-      # 6. Fix permissions
+      # =====================
+      # Fix permissions
+      # =====================
       - name: Fix permissions
         run: |
           sudo chown -R $USER:$USER .
           chmod -R u+rwX .
 
-      # 7. Find squashfs-root
+      # =====================
+      # Find rootfs
+      # =====================
       - name: Find rootfs
         run: |
-          echo "Searching squashfs-root..."
           find . -type d -name "squashfs-root"
 
-      # 8. Prepare files directory
+      # =====================
+      # Prepare files directory
+      # =====================
       - name: Prepare files
         run: |
           rm -rf files
@@ -89,19 +104,43 @@ jobs:
             "$ROOTFS_DIR"/ \
             files/
 
-      # 9. Show result
-      - name: Show extracted files
+      # =====================
+      # FIX INVALID FILENAMES (: * ? etc)
+      # =====================
+      - name: Sanitize filenames (IMPORTANT FIX)
         run: |
-          echo "===== FILES ====="
+          echo "Fixing invalid characters in filenames..."
+
+          find files -depth | while read f; do
+            new=$(echo "$f" \
+              | sed 's/:/_/g' \
+              | sed 's/\*/_/g' \
+              | sed 's/?/_/g' \
+              | sed 's/|/_/g')
+
+            if [ "$f" != "$new" ]; then
+              mv "$f" "$new" || true
+            fi
+          done
+
+      # =====================
+      # Show result
+      # =====================
+      - name: Show files
+        run: |
           du -sh files
           find files | head -200
 
-      # 10. Archive (optional backup)
+      # =====================
+      # Optional archive
+      # =====================
       - name: Create archive
         run: |
           tar -czf files.tar.gz files
 
-      # 11. Upload artifact (recommended)
+      # =====================
+      # Upload artifact (FIXED FORMAT)
+      # =====================
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -109,8 +148,11 @@ jobs:
           path: |
             files
             files.tar.gz
+          if-no-files-found: error
 
-      # 12. Commit to repo
+      # =====================
+      # Commit to repo
+      # =====================
       - name: Commit files
         run: |
           git config --global user.name "github-actions"
