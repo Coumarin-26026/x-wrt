@@ -1,0 +1,113 @@
+name: OpenWrt RootFS Extractor
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Install tools
+      - name: Install tools
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            wget curl git file rsync \
+            binwalk squashfs-tools sasquatch \
+            p7zip-full unzip xz-utils gzip bzip2 tar
+
+      # Download firmware
+      - name: Download firmware
+        run: |
+          wget -O firmware.bin \
+          "https://drive.usercontent.google.com/uc?id=1mxqnnH5r3YLlU4on0YMZVTZSrre72C3o&export=download"
+
+      # Show firmware info
+      - name: Show firmware info
+        run: |
+          ls -lah
+          file firmware.bin
+
+      # Extract firmware
+      - name: Extract firmware
+        run: |
+          sudo binwalk -Me firmware.bin
+
+      # Fix permissions
+      - name: Fix permissions
+        run: |
+          sudo chown -R $USER:$USER .
+          chmod -R u+rwX .
+
+      # Find squashfs-root
+      - name: Locate rootfs
+        run: |
+          echo "Searching squashfs-root..."
+          find . -type d -name "squashfs-root"
+
+      # Prepare files directory
+      - name: Prepare files
+        run: |
+          rm -rf files
+          mkdir -p files
+
+          ROOTFS_DIR=$(find . -type d -name "squashfs-root" | head -n 1)
+
+          if [ -z "$ROOTFS_DIR" ]; then
+            echo "ERROR: squashfs-root not found"
+            exit 1
+          fi
+
+          echo "FOUND ROOTFS: $ROOTFS_DIR"
+
+          rsync -a \
+            --delete \
+            --exclude dev \
+            --exclude proc \
+            --exclude sys \
+            --exclude tmp \
+            --exclude overlay \
+            "$ROOTFS_DIR"/ \
+            files/
+
+      # Show extracted files
+      - name: Show files
+        run: |
+          echo "===== FILES ====="
+          du -sh files
+          find files | head -200
+
+      # Optional: pack backup
+      - name: Create archive
+        run: |
+          tar -czf files.tar.gz files
+
+      # Upload artifact (recommended)
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: openwrt-files
+          path: |
+            files
+            files.tar.gz
+
+      # Commit to repo
+      - name: Commit files
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git add files
+
+          git commit -m "Auto extract firmware to files" || echo "No changes"
+
+          git push
