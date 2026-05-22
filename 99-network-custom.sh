@@ -3,9 +3,9 @@
 . /lib/functions.sh
 . /etc/openwrt_release
 
-wifi_password="TPTlam011205@!"
-ten_wifi="TPT Lam"
-hostname="DOANDUY"
+wifi_password="Thanh2k2"
+ten_wifi="Coumarin"
+hostname="Coumarin"
 
 uci set dropbear.@dropbear[0].PasswordAuth='on'
 uci set dropbear.@dropbear[0].RootPasswordAuth='on'
@@ -35,7 +35,7 @@ uci set network.lan.delegate="0"
 uci commit network
 /etc/init.d/network restart
 
-uci set base_config.@status[0].SSID='TPT Lam'
+uci set base_config.@status[0].SSID='Coumarin'
 uci set base_config.@status[0].SSID_PASSWD=${wifi_password}
 uci set base_config.@status[0].country="CN"
 uci commit base_config
@@ -125,11 +125,4 @@ sysctl -p
 
 # /etc/init.d/network restart
 
-uci set network.wwan.apn='m3-world' uci set network.wwan.apn='m3-world' 
-
-uci set network.wwan.apn='v-internet' uci set network.wwan.apn='v-internet' 
-
-uci set network.wwan.apn='m9-wintel' uci set network.wwan.apn='m9-wintel' 
-
 exit 0
-
